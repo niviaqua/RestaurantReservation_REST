@@ -10,7 +10,7 @@ public class DBUtils {
 
 	private final static String DB_URL = "jdbc:mysql://localhost:3306/restaurant_db";
 	private final static String DB_USER = "root";
-	private final static String DB_PASSWORD ="";
+	private final static String DB_PASSWORD ="root";
 	
 	static {
 		try {
