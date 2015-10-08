@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Time;
 import java.util.ArrayList;
 import java.util.List;
 import egen.nivedita.exception.AppException;
@@ -94,17 +95,19 @@ public Reservation fetchOne(int confid) throws AppException {
 
 public Reservation create(Reservation res) throws AppException {
 
+
 Connection con = DBUtils.getConnection();
 PreparedStatement ps = null;
 ResultSet rs = null;
-
+//res.setTime(Time.valueOf("12:21:21"));
 try {
-	ps = con.prepareStatement("INSERT INTO reservation (HOST_NAME, EMAIL, PHONE, PARTY_SIZE, DATE, TIME, TABLE_ASSIGNED, TABLE_STATUS) VALUES (?,?,?,?,?,?,?)", PreparedStatement.RETURN_GENERATED_KEYS);
+	ps = con.prepareStatement("INSERT INTO reservation (HOST_NAME, EMAIL, PHONE, PARTY_SIZE, DATE, TIME, TABLE_ASSIGNED, TABLE_STATUS) VALUES (?,?,?,?,?,?,?,?)", PreparedStatement.RETURN_GENERATED_KEYS);
 	ps.setString(1, res.getHostname());
 	ps.setString(2, res.getEmail());
 	ps.setString(3, res.getPhone());
 	ps.setInt(4, res.getPartysize());
 	ps.setDate(5, res.getDate());
+	//System.out.println(res.getTime());
 	ps.setTime(6, res.getTime());
 	ps.setString(7, res.getTable_assigned());
 	ps.setString(8, res.getStatus());
