@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Time;
 import java.util.ArrayList;
 import java.util.List;
 import egen.nivedita.exception.AppException;
@@ -100,6 +99,7 @@ Connection con = DBUtils.getConnection();
 PreparedStatement ps = null;
 ResultSet rs = null;
 //res.setTime(Time.valueOf("12:21:21"));
+System.out.println("res = " + res);
 try {
 	ps = con.prepareStatement("INSERT INTO reservation (HOST_NAME, EMAIL, PHONE, PARTY_SIZE, DATE, TIME, TABLE_ASSIGNED, TABLE_STATUS) VALUES (?,?,?,?,?,?,?,?)", PreparedStatement.RETURN_GENERATED_KEYS);
 	ps.setString(1, res.getHostname());
@@ -107,7 +107,7 @@ try {
 	ps.setString(3, res.getPhone());
 	ps.setInt(4, res.getPartysize());
 	ps.setDate(5, res.getDate());
-	//System.out.println(res.getTime());
+		System.out.println(res.getDate());
 	ps.setTime(6, res.getTime());
 	ps.setString(7, res.getTable_assigned());
 	ps.setString(8, res.getStatus());
@@ -174,7 +174,7 @@ public Reservation update(Reservation reservation) throws AppException {
 Connection con = DBUtils.getConnection();
 PreparedStatement ps = null;
 ResultSet rs = null;
-
+System.out.println("reservation: " + reservation);
 try {
 	ps = con.prepareStatement("UPDATE reservation SET HOST_NAME=?, EMAIL=?, PHONE = ?, DATE=?, TIME = ?, PARTY_SIZE = ?, TABLE_ASSIGNED=?, TABLE_STATUS=?  WHERE CONFID = ? ");
 	ps.setString(1, reservation.getHostname());

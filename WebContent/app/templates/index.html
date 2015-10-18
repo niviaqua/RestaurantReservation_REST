@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+
+<head>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ 
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+ <link rel="stylesheet" href="../../css/main.css">
+ <link rel="shortcut icon" href="../../images/background3.jpg"/> 
+  <title>Nanking Restaurant</title>
+</head>
+
+<body>
+<div class="back">
+<header>
+    <h1>Nanking Restaurant</h1>
+    <h4>The Authentic Indo Chinese Restaurant of New York City</h4>
+</header>
+<div><a href="ownerHome.tmpl.html">Login</a></div>
+
+
+<div class="nav">
+    <ul>
+        <li><a href="#/home">Home</a></li>
+        <li><a href="#/menu">Menu</a></li>
+        <li ><a href="#/reservation">Book Table</a></li>
+         <li ><a href="#/modifyres">Modify</a></li>
+        <li><a href="#/gallery">Gallery</a></li>
+     <li><a href="#/login">Login</a></li>
+    </ul>
+</div>
+
+
+<section>
+    <div class="container" ng-view></div>
+</section>	
+
+
+<footer>&copy; Developed by Nivedita Joshi.</footer>
+
+<script src="https://code.angularjs.org/1.4.7/angular.js"></script>
+<script src="https://code.angularjs.org/1.4.7/angular-route.js"></script>
+<script src="../routeconfig/customer.app.js"></script>
+<script src="../services/customer.service.js"></script>
+<script src="../controllers/customer.controller.js"></script>
+<script src="../services/viewRes.service.js"></script>
+<script src="../controllers/viewRes.controller.js"></script>
+<script src="../controllers/res-detail.controller.js"></script>
+<script src="../controllers/login.controller.js"></script>
+<script src="../services/login.service.js"></script>
+</div>
+</body>
+</html>

@@ -101,10 +101,11 @@ public class ReservationController {
 					}
 			)
 	public Reservation create(Reservation res) {
-		
+	//	System.out.println("Inside createRes controller in" + res); 
+	
 		try {
 			ReservationDAO dao= new ReservationDAO();
-			res = dao.create(res);
+			 res=  dao.create(res);
 			
 		} catch (AppException e) {
 			// TODO Auto-generated catch block

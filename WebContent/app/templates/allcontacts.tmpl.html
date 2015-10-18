@@ -1,0 +1,22 @@
+<h3>All Contacts</h3>
+
+<input class="form-control" type="search" ng-model="viewResVm.searchStr" placeholder="Search Here...">
+<hr>
+
+<div class="create-table">
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th ng-click="viewResVm.sort.by= 'hostname'; viewResVm.sort.reverse = !viewResVm.sort.reverse;">Name</th>
+       	<th>Phone Number</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="res in viewResVm.viewRes | filter: viewResVm.searchStr | orderBy:viewResVm.sort.by: viewResVm.sort.reverse">
+        <td>{{res.hostname}}</td>
+        <td><a href="tel:{{res.phone}}">{{res.phone}}</a></td>
+        
+          </tr>
+    </tbody>
+</table>
+</div>

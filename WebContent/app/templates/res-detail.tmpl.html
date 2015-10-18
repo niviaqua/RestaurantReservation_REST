@@ -1,0 +1,69 @@
+<h3>Reservation Detail</h3>
+<form class="create-table" ng-submit="resDetailVm.updateRes()" >
+<table class="table table-striped">
+    <tr>
+    	<th>Confirmation Number: </th>
+    	<td>{{resDetailVm.res.confid}}</td>
+    </tr>
+    
+    <tr>
+        <th>Host Name:</th>
+        <td><input type="text" class="form-control" ng-model="resDetailVm.res.hostname"  value="{{resDetailVm.res.hostname}}"></td>
+    </tr>
+        
+       <tr>
+        <th>Email</th>
+         <td><input type="text" class="form-control" ng-model="resDetailVm.res.email" value="{{resDetailVm.res.email}}"></td>
+    </tr>
+    
+      <tr>
+        <th>Phone</th>
+       <td><input type="text"  class="form-control" ng-model="resDetailVm.res.phone" value="{{resDetailVm.res.phone}}"></td>
+    </tr>
+    
+      <tr>
+        <th>Party Size</th>
+      <td><input type="text" class="form-control" ng-model="resDetailVm.res.partysize" value="{{resDetailVm.res.partysize}}"></td>
+    </tr>
+    
+      <tr>
+        <th>Date</th>
+        <td><input type="datetime" class="form-control"  ng-model="resDetailVm.res.date" value="{{resDetailVm.res.date}}"></td>
+    </tr>
+    
+      <tr>
+        <th>Time</th>
+        <td><input type="text" class="form-control" ng-model="resDetailVm.res.time" value="{{resDetailVm.res.time}}"></td>
+    </tr>   
+      
+        <tr>
+        <th>Table Assigned</th>
+        <td> 
+        <select id="table_assigned" class="form-control" ng-model="resDetailVm.res.table_assigned" value="{{resDetailVm.res.table_assigned}}">
+						  <option>A101</option>
+						  <option>A102</option>
+						   <option>A103</option>
+						    <option>A104</option>
+						     <option>A105</option>
+						      <option>A106</option>
+						</select></td>
+    </tr> 
+    
+      <tr>
+        <th>Reservation Status</th>
+        <td>
+         <select class="form-control" ng-model="resDetailVm.res.status" value="{{resDetailVm.res.status}}">
+			<option>Confirm</option>
+			<option>Waiting</option>
+			<option>Cancel</option>
+						</select>
+						</td>
+    </tr> 
+    
+</table>
+ <div class="modal-footer">
+ <button type="submit"  class="btn btn-default" >Update</button>
+ 
+  </div>
+  
+  </form>

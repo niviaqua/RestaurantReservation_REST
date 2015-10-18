@@ -1,7 +1,5 @@
 package egen.nivedita.model;
 
-import java.sql.Date;
-
 public class OwnerLogin {
 
 
