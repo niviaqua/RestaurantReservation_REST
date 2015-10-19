@@ -18,7 +18,6 @@
         .getResById($routeParams.resId)
         .then(function(res) {
           resDetailVm.res = res;
-         
         }, function(error) {
           console.log(error);
         });

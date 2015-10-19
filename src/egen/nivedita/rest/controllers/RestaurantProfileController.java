@@ -75,6 +75,7 @@ public class RestaurantProfileController {
 			
 				RestaurantProfileDAO dao = new RestaurantProfileDAO();
 				restaurant = dao.update(restaurant);
+				System.out.println("This is res controleer" + restaurant);
 			
 		} catch (AppException e) {
 			// TODO Auto-generated catch block

@@ -8,35 +8,33 @@
   ProfileController.$inject = ['profileService'];
 
   function ProfileController(profileService) {
-    var resDetailVm = this;
-   
-    init();
-
-    function init() {
+    
+	  var profileVm = this;
+	profileVm.pro = {};
+	  init();
+	  
+	  function init() {
     	profileService
-        .getResById(resId)
-        .then(function(res) {
-          profileVm.res = res;
-          console.log(resDetailVm.res); //Object{};
+        .getProfile()
+        .then(function(pro) {
+          profileVm.pro = pro;
+         // console.log(profileVm.pro);
         }, function(error) {
           console.log(error);
         });
     }
-    
-  resDetailVm.res= {};
-    
-	resDetailVm.updateProfile =  function() {
-		 console.log(resDetailVm.res); 
-		 profileService
-	   .updateProfile(resDetailVm.res)
-	   .then(function (response) {
-		  console.log(resDetailVm.res);  //Object{};
-         
-       }, function (error) {
-           console.log(error);
-       });
-    }
-	
+	  
+	  profileVm.pro= {};
+	  profileVm.updateProfile =  function() {
+			profileService
+		   .updateProfile(profileVm.pro)
+		   .then(function (response) {
+	       }, function (error) {
+	           console.log(error);
+	       });
+	    }
+		
+
   }
   
   

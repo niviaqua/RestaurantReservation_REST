@@ -2,48 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81f18b31-ed57-4f93-ac7f-ce16639357f1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/background3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/fonts/fortune-cookie-nf.regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/image01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/image02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/image03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/image04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/image05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/image06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/image07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/image08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/image09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/image10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/fonts/shojumaru.regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/templates/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/egen/nivedita/filter/CORSFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/controllers/createRes.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/services/createRes.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/templates/createRes.tmpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/templates/gallery.tmpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/templates/home.tmpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/templates/menu.tmpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/routeconfig/owner.app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/templates/ownerHome.tmpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/templates/profile.tmpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/controllers/res-detail.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/templates/res-detail.tmpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/templates/reservation.tmpl.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/controllers/viewRes.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/services/viewRes.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/app/templates/viewRes.tmpl.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/index.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/RRS_dump.sql" afterPath="$PROJECT_DIR$/sql/RRS_dump.sql" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WebContent/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/egen/nivedita/model/OwnerLogin.java" afterPath="$PROJECT_DIR$/src/egen/nivedita/model/OwnerLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/egen/nivedita/rest/controllers/OwnerLoginController.java" afterPath="$PROJECT_DIR$/src/egen/nivedita/rest/controllers/OwnerLoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/egen/nivedita/model/Reservation.java" afterPath="$PROJECT_DIR$/src/egen/nivedita/model/Reservation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/egen/nivedita/rest/controllers/ReservationController.java" afterPath="$PROJECT_DIR$/src/egen/nivedita/rest/controllers/ReservationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/egen/nivedita/dao/ReservationDAO.java" afterPath="$PROJECT_DIR$/src/egen/nivedita/dao/ReservationDAO.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/app/services/profile.services.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/WebContent/app/templates/404.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/egen/nivedita/rest/controllers/RestaurantProfileController.java" afterPath="$PROJECT_DIR$/src/egen/nivedita/rest/controllers/RestaurantProfileController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/templates/createRes.tmpl.html" afterPath="$PROJECT_DIR$/WebContent/app/templates/createRes.tmpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/templates/index.html" afterPath="$PROJECT_DIR$/WebContent/app/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/templates/ownerHome.tmpl.html" afterPath="$PROJECT_DIR$/WebContent/app/templates/ownerHome.tmpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/controllers/profile.controller.js" afterPath="$PROJECT_DIR$/WebContent/app/controllers/profile.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/templates/profile.tmpl.html" afterPath="$PROJECT_DIR$/WebContent/app/templates/profile.tmpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/controllers/res-detail.controller.js" afterPath="$PROJECT_DIR$/WebContent/app/controllers/res-detail.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/app/templates/viewRes.tmpl.html" afterPath="$PROJECT_DIR$/WebContent/app/templates/viewRes.tmpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="RestaurantReservation_RESTApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,7 +36,7 @@
       <file leaf-file-name="ownerHome.tmpl.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/app/templates/ownerHome.tmpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.625">
+            <state vertical-scroll-proportion="1.25">
               <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding />
             </state>
@@ -104,16 +73,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.services.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/app/services/profile.services.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="viewRes.service.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/app/services/viewRes.service.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/WebContent/app/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-27.5">
-              <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+              <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -156,6 +115,7 @@
         <option value="$PROJECT_DIR$/src/egen/nivedita/filter/CORSFilter.java" />
         <option value="$PROJECT_DIR$/WebContent/index.html" />
         <option value="$PROJECT_DIR$/WebContent/app/routeconfig/customer.app.js" />
+        <option value="$USER_HOME$/Downloads/presentation/2-ui-html5.html" />
       </list>
     </option>
   </component>
@@ -344,7 +304,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/lab/egen-app" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
@@ -411,15 +371,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="272" y="23" width="1142" height="808" extended-state="0" />
-    <editor active="false" />
+    <frame x="272" y="23" width="1142" height="808" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25512934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25512934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -523,14 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/app/templates/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/egen/nivedita/filter/CORSFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.47826087">
@@ -542,14 +494,14 @@
     <entry file="file://$PROJECT_DIR$/WebContent/app/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-27.5">
-          <caret line="87" column="6" selection-start-line="87" selection-start-column="6" selection-end-line="87" selection-end-column="6" />
+          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/app/templates/ownerHome.tmpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.625">
+        <state vertical-scroll-proportion="1.25">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding />
         </state>
@@ -587,7 +539,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/app/services/profile.services.js">
+    <entry file="file://$USER_HOME$/Downloads/presentation/2-ui-html5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33281004">
+          <caret line="1068" column="102" selection-start-line="1068" selection-start-column="98" selection-end-line="1068" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/apache-tomcat-8.0.27/webapps/host-manager/WEB-INF/jsp/404.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
