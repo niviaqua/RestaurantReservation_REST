@@ -11,8 +11,7 @@
     	
     	
     	var createResVm = this;
-    	createResVm.res= {};
-   
+
     	createResVm.createRes =  function() {
     	   createResService
     	   .createRes(createResVm.res)

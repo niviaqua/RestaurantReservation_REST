@@ -25,7 +25,9 @@
             }
 
             function errorFn(error) {
+            	//	alert ('Invalid Username or password'); 
                   defer.reject(error.statusText);
+                
             }
 
             return defer.promise;
