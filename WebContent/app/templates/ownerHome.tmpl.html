@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+
+<head>
+  <title>Restaurant Reservation System</title>
+	 <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/main.css" />
+  <link rel="shortcut icon" href="../../images/background3.jpg"/> 
+</head>
+
+<body>
+<div class="ownerbackground">
+<header>
+    <h1>Nanking Restaurant</h1>
+    <h4>The Authentic Indo Chinese Restaurant of New York City</h4>
+</header>
+<div><a href="index.html">Logoff</a></div>
+<div class="nav">
+        <ul>
+            <li><a href="#/viewRes">View </a></li>
+            <li><a href="#/createRes">Create</a></li>
+            <li><a href="#/viewSeating">View Seating</a></li>
+            <li><a href="#/profile">Profile </a></li>
+            <li><a href="#allcontacts">All Contacts</a></li>
+        </ul>
+    </div>
+
+<section>
+    <div class="container" ng-view></div>
+</section>
+
+<footer>&copy; Developed by Nivedita Joshi.</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://code.angularjs.org/1.4.7/angular.js"></script>
+<script src="https://code.angularjs.org/1.4.7/angular-route.js"></script>
+<script src="../routeconfig/customer.app.js"></script>
+<script src="../routeconfig/owner.app.js"></script>
+<script src="../services/viewRes.service.js"></script>
+<script src="../controllers/viewRes.controller.js"></script>
+<script src="../controllers/res-detail.controller.js"></script>
+<script src="../controllers/createRes.controller.js"></script>
+<script src="../services/createRes.service.js"></script>
+<script src="../services/customer.service.js"></script>
+<script src="../controllers/customer.controller.js"></script>
+<script src="../services/profile.service.js"></script>
+<script src="../controllers/profile.controller.js"></script>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<h3>View Reservation</h3>
+
+<input class="form-control" type="search" ng-model="viewResVm.searchStr" placeholder="Search Here...">
+
+<hr>
+<div class="create-table">
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>View</th>
+        <th ng-click="viewResVm.sort.by= 'confid'; viewResVm.sort.reverse = !viewResVm.sort.reverse;">ConfId</th>
+        <th ng-click="viewResVm.sort.by= 'hostname'; viewResVm.sort.reverse = !viewResVm.sort.reverse;">HostName</th>
+        <th ng-click="viewResVm.sort.by= 'phone'; viewResVm.sort.reverse = !viewResVm.sort.reverse;">Phone</th>
+        <th ng-click="viewResVm.sort.by= 'partysize'; viewResVm.sort.reverse = !viewResVm.sort.reverse;">PartySize</th>
+        <th ng-click="viewResVm.sort.by= 'date'; viewResVm.sort.reverse = !viewResVm.sort.reverse;">Date</th>
+        <th ng-click="viewResVm.sort.by= 'time'; viewResVm.sort.reverse = !viewResVm.sort.reverse;">Time</th>
+        <th ng-click="viewResVm.sort.by= 'table_assigned'; viewResVm.sort.reverse = !viewResVm.sort.reverse;">Table#</th>
+       	<th ng-click="viewResVm.sort.by= 'status'; viewResVm.sort.reverse = !viewResVm.sort.reverse;">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="res in viewResVm.viewRes  | filter: viewResVm.searchStr | orderBy:viewResVm.sort.by: viewResVm.sort.reverse"
+    ng-show="res.status=='Confirm' || res.status=='Waiting'">
+        <td><a href="#/viewRes/{{res.confid}}"><i class="glyphicon glyphicon-user"></i></a></td>
+        <td>{{res.confid}}</td>
+        <td>{{res.hostname}}</td>
+        <td>{{res.phone}}</td>
+        <td>{{res.partysize}}</td>
+        <td>{{res.date}}</td>
+        <td>{{res.time}}</td>
+        <td>{{res.table_assigned}}</td>
+        <td>{{res.status}}</td>
+          </tr>
+    </tbody>
+</table>
+</div>

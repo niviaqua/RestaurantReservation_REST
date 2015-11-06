@@ -1,0 +1,418 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin:1px;
+}
+
+::selection {
+    background: #b3d4fc;
+}
+
+/* audio, canvas, iframe, img, svg, video {
+    vertical-align: middle;
+}
+*/
+
+/* ==========================================================================
+   Nivedita's custom styles
+   ========================================================================== */
+.ownerbackground {
+	background-color: #fff2dd;
+	 height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      height:30em;
+      margin: auto;
+  }
+  
+#seatingImg {
+    width:100%;
+    height:100%;
+  
+}
+
+
+.context-heading {
+    text-align:center;
+    font-family: myFirstFont;
+    font-size: 1rem;
+    padding: 2em;
+    color: #660033;
+    font-weight: bold;
+}
+
+.context-body {
+    text-align:center;
+    font-family: myFirstFont;
+    font-size: 0.9rem;
+    padding: 1em;
+    color: #660033;
+    font-weight: bold;
+}
+
+.context-home {
+    opacity: 0.8;
+    background-color:  #fff2dd;
+
+}
+
+body {
+    background-color: #888888;
+}
+
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('../fonts/shojumaru.regular.ttf');
+    font-size: 1.2em;
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url('../fonts/fortune-cookie-nf.regular.ttf');
+    font-size: 1.2em;
+    }
+
+
+
+
+header
+{
+    text-align: center;
+    font-family: myFirstFont;
+    color: #660033;
+
+}
+
+
+.nav {
+    border: 1px solid black;
+    border-radius: 3px;
+
+}
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: #660033;
+
+}
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 1px solid #888;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav a:hover {
+    background-color: #000;
+    border-radius: 3px;
+}
+
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    border-radius: 3px;
+}
+
+#ownerHome {
+    background-color: #b3d4fc;
+}
+
+div.container {
+    padding-top: 50px;
+    margin: 0 auto; /* to center the container */
+}
+
+
+.login {
+    text-align:right;
+    padding-right: 20px;
+    font-size: 0.9em;
+}
+
+p {
+    text-align: center;
+    font-family: fantasy;
+    font-weight: 900;
+    font-size: 1.2em;
+    padding-top: 1em;
+}
+
+.hr {
+    width: 100%;
+    color: #222222;
+    line-height: 0.1em;
+    background-color: grey;
+    margin: 1px 5px 5px 4px;
+    text-shadow: #CCCCCC;
+
+}
+
+
+td {
+    padding:0.6em;
+}
+
+.contact-details{
+    margin-top: 2em;
+
+}
+
+.contact-details-box {
+
+    text-align: center;
+    font-family: fantasy;
+    font-size: 1.2em;
+    margin: 10px 10px;
+}
+
+.glyphicon:hover {
+  cursor:pointer;
+  
+}
+/* For small devices (e.g. smartphones) */
+.menu1 {
+    border: 1px solid black;
+    background: linear-gradient(to right, rgb(255, 204, 153), rgb(255, 250, 245));
+    height: auto;
+    font-size: 1rem;
+    font-family: fantasy;
+    border-radius: 0.8em;
+    margin:1.2em;
+    padding:0.2em;
+    opacity: 0.8;
+}
+
+#center-menu {
+    margin-left: 1.2em;
+}
+
+.create-table {
+	border: 1px solid black;
+    border-radius: 20px;
+    height: 100%;
+    width:100%;
+    
+	
+}
+.create-form {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 1em;
+    padding: 1em;
+    height: 100%;
+}
+
+.imagecontainer {
+    width: 100%;
+    padding: 10px;
+    float: left;
+    border: 1px solid black;
+}
+
+#seatingImg {
+    width:100%;
+    height:100%;
+  
+}
+      
+#map {
+    width: 100%;
+    height: 300px;
+    background-color: #CCC;
+    border: 1px solid black;
+}
+
+.back {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-image: url("../images/background3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-size: cover;
+
+}
+
+.btn.active[data-active-class="success"] {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+.btn-group {
+    background-color: #000; !important;
+    color: red; !important;
+}
+
+.outer-res{
+    height: 80%;
+    width: 80%;
+    border: 1px solid black;
+    position: relative;
+    margin: 2em 2em;
+    opacity: 0.8;
+    background-color: #FFFAFF;
+
+
+}
+/*
+.sprites { background: url('http://zerosprites.com/detail/q9wik/output/sprites.png') no-repeat; }
+.facebook { width: 12px; height: 12px; background-position: 0px 0px; }
+.google { width: 12px; height: 12px; background-position: 0px -45px; }
+.instagram { width: 12px; height: 12px; background-position: 0px -50px; }
+.twitter { width: 12px; height: 12px; background-position: 0px -55px; }*/
+
+/* For medium devices (e.g. tablets) */
+@media (min-width: 500px) {
+    .nav li {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+        display: inline-block;
+        margin-right: -4px;
+    }
+
+    .imagecontainer {
+        max-width: 50%;
+    }
+    
+ #seatingImg {
+    width:100%;
+    height:100%;
+  
+}
+  
+    
+    .menu1 {
+        float:left;
+        width:40%;
+        background: linear-gradient(to right, rgb(255, 204, 153), rgb(255, 250, 245));
+    }
+
+    .new-reservation {
+        float:left;
+        width:50%;
+
+    }
+
+    .existing-reservation {
+        float:left;
+        width:50%;
+
+    }
+
+
+    .outer-res{
+        height: 50%;
+        width: 70%;
+        border: 1px solid black;
+        position: relative;
+        margin: 2em 5em;
+
+    }
+
+}
+
+/* For large devices (e.g. desktops) */
+@media (min-width: 900px) {
+    .imagecontainer {
+        max-width: 24%;
+       
+    }
+    
+    .seatingImg {
+    width:100%;
+    height:100%;
+    
+    }
+    
+    
+    .menu1 {
+        float:left;
+        width:20%;
+        background: linear-gradient(to right, rgb(255, 204, 153), rgb(255, 250, 245));
+    }
+
+    .location-details {
+        float:left;
+        width: 50%;
+    }
+
+    .outer-res{
+        height: 50%;
+        width: 80%;
+        border: 1px solid black;
+        position: relative;
+        margin: 2em 8em;
+
+    }
+}
+
+
+@media print,
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
